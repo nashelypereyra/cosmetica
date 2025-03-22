@@ -9,9 +9,12 @@ document.addEventListener("DOMContentLoaded", () => {
 
 function agregarAlCarrito(id) {
     const productos = [
-        { id: 1, nombre: "Crema de Aloe", precio: 15, imagen: "img/aloe.jpg" },
-        { id: 2, nombre: "Jabón de Lavanda", precio: 8, imagen: "img/lavanda.jpg" },
-        { id: 3, nombre: "Aceite de Coco", precio: 12, imagen: "img/coco.jpg" }
+        { id: 1, nombre: "Crema de Aloe", precio: 18, imagen: "images/crema_aloe.jpg" },
+        { id: 2, nombre: "Jabón de Lavanda", precio: 10, imagen: "images/jabon_lavanda.jpg" },
+        { id: 3, nombre: "Aceite de Ricino", precio: 14, imagen: "images/aceite_ricino.jpg" },
+        { id: 4, nombre: "Aceite de Lavanda", precio: 18, imagen: "images/aceite_lavanda.jpg" },
+        { id: 5, nombre: "Aceite de Menta", precio: 11, imagen: "images/aceite_menta.jpg" },
+        { id: 6, nombre: "Bálsamo Hidratante", precio: 13, imagen: "images/hidratante.jpg" }
     ];
 
     const producto = productos.find(p => p.id === id);
